@@ -1,0 +1,97 @@
+.your-type-2 {
+    width: 100%;
+    height: 420px;
+    margin-top: 18px;
+
+    .your-type-2-center {
+        max-width: 1326px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 16px;
+        border: 1px solid lightgray;
+        overflow: hidden;
+
+        .your-type-2-item {
+            width: 25%;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+
+            .your-type-2-title {
+                width: 100%;
+                height: fit-content;
+
+                h4 {
+                    font-size: 18px;
+                    font-family: var(--font-family);
+                    font-weight: normal;
+                    margin-bottom: 13px;
+                }
+
+                p {
+                    font-size: 13.5px;
+                    font-family: var(--font-family);
+                    color: gray;
+                    margin-bottom: 18px;
+                }
+            }
+
+            .your-type-2-box {
+                width: 100%;
+                display: flex;
+                flex-flow: row wrap;
+                margin-bottom: 4px;
+                justify-content: center;
+                align-items: center;
+
+                .your-type-2-img {
+                    width: 49%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-sizing: border-box;
+                    margin-bottom: 4px;
+
+                    img {
+                        width: 130px;
+                        height: 130px;
+                    }
+                }
+
+
+
+            }
+
+
+            .your-type-2-bottom {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    text-decoration: none;
+                    color: #1CBFD3;
+                    font-size: 14px;
+                    font-family: var(--font-family);
+                }
+            }
+
+
+        }
+    }
+}
+
+.border-left {
+    border-left: 0.5px solid rgb(234, 227, 227);
+}
+
+.border-bottom {
+    border-bottom: 0.5px solid rgb(234, 227, 227);
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: BYekan;
+    src: url(../font/Yekan.ttf);
+}
+
+:root{
+    --font-family:BYekan;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    border:1px solid lightgray;
+    background-color: white;
+}
+
+.swiper-navigation-icon{
+    width: 10px !important;
+    height: 10px !important;
+    path{
+        fill: black;
+    }
+}
+
+.swiper-button-disabled{
+    display: none !important;
+}
+
+.swiper-pagination-bullet{
+    width: 5px !important;
+    height: 5px !important;
+}
+
+.swiper-pagination-bullet-active{
+    width: 16px !important;
+    height: 6.5px !important;
+    border-radius: none;
+    border-radius: 4px !important;
+}
+
+.styles_Slider__next-button-selector__R9M5X, .styles_Slider__prev-button-selector__fsha9{
+    display: hidden !important;
+}
