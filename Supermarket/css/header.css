@@ -279,5 +279,5 @@ a {
 .header-menu-link:hover {
     border-bottom: 2.3px solid #009a49;
     box-sizing: border-box;
-    transition: all 50ms linear
+    transition: all 50ms linear;
 }
