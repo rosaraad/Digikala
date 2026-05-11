@@ -1,6 +1,49 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    .fixed-poshtibani {
+        width: 118px;
+        height: 48px;
+        border-radius: 80px;
+        background-color: rgb(62, 62, 175);
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            font-family: var(--font-family);
+            font-size: 16px;
+            color: whitesmoke;
+            text-decoration: none;
+        }
+    }
+
+    .fixed-supermarket {
+        width: 118px;
+        height: 48px;
+        border-radius: 80px;
+        background-color: #009A49;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            font-family: var(--font-family);
+            font-size: 16px;
+            color: whitesmoke;
+            text-decoration: none;
+        }
+    }
 }
 
 @font-face {
@@ -8,42 +51,45 @@
     src: url(../font/Yekan.ttf);
 }
 
-:root{
-    --font-family:BYekan;
+:root {
+    --font-family: BYekan;
 }
 
-.swiper-button-next, .swiper-button-prev{
+.swiper-button-next,
+.swiper-button-prev {
     width: 40px !important;
     height: 40px !important;
     border-radius: 50%;
-    border:1px solid lightgray;
+    border: 1px solid lightgray;
     background-color: white;
 }
 
-.swiper-navigation-icon{
+.swiper-navigation-icon {
     width: 10px !important;
     height: 10px !important;
-    path{
+
+    path {
         fill: black;
     }
 }
 
-.swiper-button-disabled{
+.swiper-button-disabled {
     display: none !important;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
     width: 5px !important;
     height: 5px !important;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
     width: 16px !important;
     height: 6.5px !important;
     border-radius: none;
     border-radius: 4px !important;
 }
 
-.styles_Slider__next-button-selector__R9M5X, .styles_Slider__prev-button-selector__fsha9{
+.styles_Slider__next-button-selector__R9M5X,
+.styles_Slider__prev-button-selector__fsha9 {
     display: hidden !important;
 }

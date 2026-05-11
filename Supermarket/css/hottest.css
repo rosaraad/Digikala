@@ -2,11 +2,12 @@
   width: 100%;
   height: 400px;
   margin: 20px 0px;
+  margin-bottom: 33px;
 }
 
 .hottest .hottest-center {
   max-width: 1330px;
-  height: 100%;
+  height: fit-content;
   margin: 0 auto;
   border: 1px solid lightgrey;
   border-radius: 16px;
@@ -33,7 +34,7 @@
 
     .swiper-slide-favorites {
       width: 100%;
-      height: 100%;
+      height: fit-content;
       padding: 20px;
 
       .favorites-item {

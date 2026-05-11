@@ -7,7 +7,7 @@
 
 .most-buy .most-buy-center {
   max-width: 1330px;
-  height: 100%;
+  height: fit-content;
   margin: 0 auto;
   border: 1px solid lightgrey;
   border-radius: 16px;
